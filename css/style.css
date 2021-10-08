@@ -444,6 +444,9 @@ body {
 	letter-spacing: 0.7px;
 	margin: 0px 0px 11px 0px;
 }
+.reviews__text::first-letter {
+	color: #f00000;
+}
 .reviews__text a {
 	color: #860000;
 }
