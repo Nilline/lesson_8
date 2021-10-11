@@ -561,15 +561,24 @@ body {
 	font-weight: 500;
 }
 .contacts__number {
-	background: url("../img/icons/phone.svg") 0 50% / 30px no-repeat;
 	min-height: 30px;
-	padding: 40px 0px 40px 50px;
+	padding: 40px 0px 40px 0px;
 }
 .contacts__number a {
 	font-size: 18px;
+	display: inline-block;
 	line-height: 30px;
 	font-weight: 700;
 	color: inherit;
+}
+.contacts__number a::before {
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	background: url("../img/icons/phone.svg") 0 50% / 30px no-repeat;
+	margin: 0px 20px 0px 0px;
 }
 .contacts__number a:hover {
 	color: #f00000;
