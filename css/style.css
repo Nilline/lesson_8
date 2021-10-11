@@ -769,6 +769,9 @@ body {
 	line-height: 150%;
 	letter-spacing: 0.15px;
 }
+.one-footer__text:not(:last-child) {
+	margin: 0px 0px 15px 0px;
+}
 /* =================================================================================== */
 .footer__two {
 	font-family: "Helvetica Neue", sans-serif;
@@ -871,4 +874,7 @@ body {
 	line-height: 138%;
 	letter-spacing: -0.1625px;
 	color: rgba(255, 255, 255, 0.5);
+}
+.card-two-block__text:not(:last-child) {
+	margin: 0px 0px 10px 0px;
 }
